@@ -1,4 +1,8 @@
-# 📊 SZABLONY MAPY KODU - AUDYT CFAB_3DHUB
+# 📊 SZABLONY MAPY KODU - AUDYT
+
+**Dokumentacja szablonów i formatów mapy logiki biznesowej.**
+
+Szablony i formaty mapy logiki biznesowej aplikacji.
 
 > **LOKALIZACJA:** `mapa_kodu_dokumentacja/szablony_mapy.md`  
 > **STATUS:** Szablony mapy kodu  
@@ -16,7 +20,7 @@
 
 ## 🎯 CEL DOKUMENTU
 
-Szablony i formaty mapy logiki biznesowej aplikacji CFAB_3DHUB.
+Szablony i formaty mapy logiki biznesowej aplikacji.
 
 ---
 
@@ -29,19 +33,19 @@ Szablony i formaty mapy logiki biznesowej aplikacji CFAB_3DHUB.
 **📁 PLIK WYNIKOWY MAPY MUSI BYĆ W GŁÓWNYM FOLDERZE PROJEKTU:**
 
 ```
-_audyt/
-├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
-├── __doc/
-├── mapa_kodu_dokumentacja/
-└── szczegolowa_analiza_pliku/
+PROJEKT/
+├── mapa_kodu.md                   # ← PLIK WYNIKOWY MAPY
+├── src/
+├── tests/
+└── ...
 ```
 
-**🚨 OBOWIĄZKOWE:**
+**📋 WYMAGANIA DOTYCZĄCE PLIKU MAPY:**
 
-- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
-- Plik MUSI być w głównym folderze: `_audyt/`
-- Plik MUSI być aktualizowany po każdej analizie pliku
-- Plik MUSI zawierać pełny postęp analizy
+- Plik mapy MUSI być nazwany: `mapa_kodu.md`
+- Plik mapy MUSI być w głównym folderze projektu
+- Plik mapy MUSI być w formacie Markdown
+- Plik mapy MUSI zawierać wszystkie wymagane sekcje
 
 ### SZABLON PROGRESYWNEGO BUDOWANIA
 
@@ -88,7 +92,7 @@ _audyt/
 ### 📋 STRUKTURA MAPY
 
 ```markdown
-# MAPA LOGIKI BIZNESOWEJ - CFAB_3DHUB
+# MAPA LOGIKI BIZNESOWEJ
 
 **Wygenerowano na podstawie aktualnego kodu:** [DATA]
 **Cel audytu:** Eliminacja over-engineering przy zachowaniu funkcjonalności
@@ -355,6 +359,6 @@ _audyt/
 
 ---
 
-**Dokument wygenerowany na podstawie analizy celów i założeń audytu CFAB_3DHUB.**  
+**Dokument wygenerowany na podstawie analizy celów i założeń audytu.**  
 **Ostatnia aktualizacja:** 2024-12-19  
 **Wersja:** 1.0

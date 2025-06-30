@@ -1,4 +1,4 @@
-# 📜 ZASADY REFAKTORYZACJI, POPRAWEK I TESTOWANIA PROJEKTU CFAB_3DHUB
+# 📜 ZASADY REFAKTORYZACJI, POPRAWEK I TESTOWANIA PROJEKTU
 
 **Ten dokument zawiera kluczowe zasady, których należy bezwzględnie przestrzegać podczas wszelkich prac refaktoryzacyjnych, wprowadzania poprawek oraz testowania w projekcie. Każdy plik `*_correction.md` musi zawierać odniesienie do tego dokumentu.**
 

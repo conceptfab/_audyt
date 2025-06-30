@@ -1,10 +1,10 @@
-# 📋 AUDYT LOGIKI BIZNESOWEJ CFAB_3DHUB
+# 📋 AUDYT LOGIKI BIZNESOWEJ
 
 > **🚨 UWAGA! Model (AI, asystent, narzędzie automatyczne) NIE MA PRAWA samodzielnie zmieniać istniejącego kodu ani wprowadzać poprawek. Wszelkie zmiany mogą być wprowadzane wyłącznie przez człowieka po zatwierdzeniu i zgodnie z procedurami audytu.**
 
 ## 🎯 CEL zadania
 
-> **Szczegółowy cel, zakres i kryteria sukcesu audytu zostały przeniesione do zewnętrznego pliku: `__doc/cel_audytu.md`.**
+> **Szczegółowy cel, zakres i kryteria sukcesu audytu zostały przeniesione do zewnętrznego pliku: `docs/cel_audytu.md`.**
 >
 > **Przed kontynuowaniem zapoznaj się z jego zawartością, aby w pełni zrozumieć kontekst i wymagania.**
 
@@ -181,7 +181,7 @@ Configuration Reduction: Zmniejszenie liczby parametrów konfiguracyjnych
 
 **WAŻNE: Proces prezentacji danych w interfejsie użytkownika jest RÓWNIE WAŻNY jak główne procesy biznesowe!**
 
-**WAŻNE: Kod aplikacji znajduje się w folderze CORE/, plik startowy jest w głównym katalogu -> cfab_browser.py. Nie przeszukuj innych folderów, nie trać czasu!!!**
+**WAŻNE: Kod aplikacji znajduje się w folderze src/, plik startowy jest w głównym katalogu -> main.py. Nie przeszukuj innych folderów, nie trać czasu!!!**
 
 **⚠️ KRYTYCZNE: Część funkcji jest wyłączona z audytu - informacja jest zawarta w opisie funkcji!**
 

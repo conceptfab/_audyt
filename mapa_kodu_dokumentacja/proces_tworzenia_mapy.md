@@ -1,4 +1,4 @@
-# 🗺️ PROCES TWORZENIA MAPY KODU - AUDYT CFAB_3DHUB
+# 🗺️ PROCES TWORZENIA MAPY KODU - AUDYT
 
 > **LOKALIZACJA:** `mapa_kodu_dokumentacja/proces_tworzenia_mapy.md`  
 > **STATUS:** Proces tworzenia mapy kodu  
@@ -16,7 +16,7 @@
 
 ## 🎯 CEL DOKUMENTU
 
-Dokumentacja procesu tworzenia mapy logiki biznesowej aplikacji CFAB_3DHUB.
+Dokumentacja procesu tworzenia mapy logiki biznesowej aplikacji.
 
 ---
 
@@ -29,19 +29,19 @@ Dokumentacja procesu tworzenia mapy logiki biznesowej aplikacji CFAB_3DHUB.
 **📁 PLIK WYNIKOWY MAPY MUSI BYĆ W GŁÓWNYM FOLDERZE PROJEKTU:**
 
 ```
-_audyt/
-├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
-├── __doc/
-├── mapa_kodu_dokumentacja/
-└── szczegolowa_analiza_pliku/
+PROJEKT/
+├── mapa_kodu.md                   # ← PLIK WYNIKOWY MAPY
+├── src/
+├── tests/
+└── ...
 ```
 
 **🚨 OBOWIĄZKOWE:**
 
-- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
-- Plik MUSI być w głównym folderze: `_audyt/`
-- Plik MUSI być aktualizowany po każdej analizie pliku
-- Plik MUSI zawierać pełny postęp analizy
+- Plik mapy MUSI być nazwany: `mapa_kodu.md`
+- Plik mapy MUSI być w głównym folderze projektu
+- Plik mapy MUSI być w formacie Markdown
+- Plik mapy MUSI zawierać wszystkie wymagane sekcje
 
 ### ZASADA PROGRESYWNEGO BUDOWANIA
 
@@ -402,6 +402,6 @@ Dla każdego odkrytego pliku .py model MUSI:
 
 ---
 
-**Dokument wygenerowany na podstawie analizy celów i założeń audytu CFAB_3DHUB.**  
+**Dokument wygenerowany na podstawie analizy celów i założeń audytu.**  
 **Ostatnia aktualizacja:** 2024-12-19  
 **Wersja:** 1.0

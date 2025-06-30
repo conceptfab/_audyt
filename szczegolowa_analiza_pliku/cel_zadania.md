@@ -1,11 +1,8 @@
-# CEL ZADANIA
+# 🎯 CEL ZADANIA
 
 ## 🎯 CEL zadania
 
-
-
-
-Przeprowadź audyt i przygotuj plan refaktoryzacji kodu aplikacji CFAB Browser, eliminując over-engineering przy zachowaniu funkcjonalności.
+Przeprowadź audyt i przygotuj plan refaktoryzacji kodu aplikacji, eliminując over-engineering przy zachowaniu funkcjonalności.
 Obszary do audytu
 
 1. Architektura i wzorce projektowe

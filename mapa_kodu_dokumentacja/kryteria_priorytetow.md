@@ -1,4 +1,4 @@
-# 🎯 KRYTERIA PRIORYTETÓW - AUDYT CFAB_3DHUB
+# 🎯 KRYTERIA PRIORYTETÓW - AUDYT
 
 > **LOKALIZACJA:** `mapa_kodu_dokumentacja/kryteria_priorytetow.md`  
 > **STATUS:** Kryteria oceny priorytetów  
@@ -16,7 +16,7 @@
 
 ## 🎯 CEL DOKUMENTU
 
-Szczegółowe kryteria oceny priorytetów dla mapy logiki biznesowej aplikacji CFAB_3DHUB.
+Szczegółowe kryteria oceny priorytetów dla mapy logiki biznesowej aplikacji.
 
 ---
 
@@ -25,19 +25,19 @@ Szczegółowe kryteria oceny priorytetów dla mapy logiki biznesowej aplikacji C
 **🚨 OBOWIĄZKOWE: Plik wynikowy mapy MUSI być w głównym folderze projektu!**
 
 ```
-_audyt/
-├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
-├── __doc/
-├── mapa_kodu_dokumentacja/
-└── szczegolowa_analiza_pliku/
+PROJEKT/
+├── mapa_kodu.md                   # ← PLIK WYNIKOWY MAPY
+├── src/
+├── tests/
+└── ...
 ```
 
-**Wymagania:**
+**📋 WYMAGANIA DOTYCZĄCE PLIKU MAPY:**
 
-- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
-- Plik MUSI być w głównym folderze: `_audyt/`
-- Plik MUSI być aktualizowany po każdej analizie pliku
-- Plik MUSI zawierać pełny postęp analizy
+- Plik mapy MUSI być nazwany: `mapa_kodu.md`
+- Plik mapy MUSI być w głównym folderze projektu
+- Plik mapy MUSI być w formacie Markdown
+- Plik mapy MUSI zawierać wszystkie wymagane sekcje
 
 ---
 
@@ -331,6 +331,6 @@ Uzasadnienie: Oba priorytety niskie - może zostać pominięty w analizie
 
 ---
 
-**Dokument wygenerowany na podstawie analizy celów i założeń audytu CFAB_3DHUB.**  
+**Dokument wygenerowany na podstawie analizy celów i założeń audytu.**  
 **Ostatnia aktualizacja:** 2024-12-19  
 **Wersja:** 1.0
