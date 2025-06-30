@@ -63,6 +63,20 @@
 
 ---
 
+## ⚙️ INSTRUKCJE IMPLEMENTACJI
+
+> **⚠️ KRYTYCZNE: Gotowe do użycia fragmenty kodu, które należy zaimplementować, znajdują się w dedykowanym pliku `_patch_code.md`.**
+
+**Plik z kodem:** `AUDYT/patches/[nazwa_pliku]_patch_code.md`
+
+**Procedura:**
+
+1.  **Zapoznaj się z analizą** w tym dokumencie, aby zrozumieć kontekst i cel zmian.
+2.  **Otwórz plik `_patch_code.md`**, aby uzyskać dostęp do gotowych fragmentów kodu.
+3.  **Wprowadź zmiany w kodzie źródłowym**, postępując zgodnie z instrukcją i checklistą weryfikacyjną.
+
+---
+
 ## 📋 PLAN IMPLEMENTACJI
 
 ### KROK 1: [OPIS_KROKU_1]

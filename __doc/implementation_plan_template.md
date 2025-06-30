@@ -1,6 +1,5 @@
 # SZABLON PLANU IMPLEMENTACJI POPRAWEK - AUDYT LOGIKI BIZNESOWEJ
 
-
 > **⚠️ KRYTYCZNE: Przed rozpoczęciem implementacji zapoznaj się z ogólnymi zasadami refaktoryzacji, poprawek i testowania opisanymi w pliku [\_\_doc/refactoring_rules.md](__doc/refactoring_rules.md).**
 
 > **LOKALIZACJA:** `AUDYT/implementation_plan.md`  
@@ -115,13 +114,13 @@
 
 **Instrukcje dla implementacji:**
 
-1. **Zapoznaj się z analizami w plikach:**
+1. **Zapoznaj się z analizą i planem** w pliku:
    - `AUDYT/corrections/[nazwa_pliku]_correction.md`
-2. **Wprowadź zmiany w plikach:**
-   - **`[PLIK]`:** [OPIS_ZMIAN_Z_PATCH_CODE.MD]
-3. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji. Odwołaj się do zasad w `__doc/refactoring_rules.md`.**
-4. **Zaktualizuj status w planie implementacji:**
-   - Zmień status z "⏳ OCZEKUJE" na "✅ UKOŃCZONE" w `AUDYT/implementation_plan.md`
+2. **Pobierz gotowe fragmenty kodu** z pliku:
+   - `AUDYT/patches/[nazwa_pliku]_patch_code.md`
+3. **Wprowadź zmiany w pliku `[PLIK]`**, korzystając z przygotowanych fragmentów kodu.
+4. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji.** Odwołaj się do zasad w `__doc/refactoring_rules.md`.
+5. **Zaktualizuj status w planie implementacji**, zmieniając "⏳ OCZEKUJE" na "✅ UKOŃCZONE".
 
 **Status implementacji:** ⏳ OCZEKUJE
 
@@ -135,13 +134,13 @@
 
 **Instrukcje dla implementacji:**
 
-1. **Zapoznaj się z analizami w plikach:**
+1. **Zapoznaj się z analizą i planem** w pliku:
    - `AUDYT/corrections/[nazwa_pliku]_correction.md`
-2. **Wprowadź zmiany w plikach:**
-   - **`[PLIK]`:** [OPIS_ZMIAN_Z_PATCH_CODE.MD]
-3. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji. Odwołaj się do zasad w `__doc/refactoring_rules.md`.**
-4. **Zaktualizuj status w planie implementacji:**
-   - Zmień status z "⏳ OCZEKUJE" na "✅ UKOŃCZONE" w `AUDYT/implementation_plan.md`
+2. **Pobierz gotowe fragmenty kodu** z pliku:
+   - `AUDYT/patches/[nazwa_pliku]_patch_code.md`
+3. **Wprowadź zmiany w pliku `[PLIK]`**, korzystając z przygotowanych fragmentów kodu.
+4. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji.** Odwołaj się do zasad w `__doc/refactoring_rules.md`.
+5. **Zaktualizuj status w planie implementacji**, zmieniając "⏳ OCZEKUJE" na "✅ UKOŃCZONE".
 
 **Status implementacji:** ⏳ OCZEKUJE
 
@@ -187,13 +186,13 @@
 
 **Instrukcje dla implementacji:**
 
-1. **Zapoznaj się z analizami w plikach:**
+1. **Zapoznaj się z analizą i planem** w pliku:
    - `AUDYT/corrections/[nazwa_pliku]_correction.md`
-2. **Wprowadź zmiany w plikach:**
-   - **`[PLIK]`:** [OPIS_ZMIAN_Z_PATCH_CODE.MD]
-3. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji. Odwołaj się do zasad w `__doc/refactoring_rules.md`.**
-4. **Zaktualizuj status w planie implementacji:**
-   - Zmień status z "⏳ OCZEKUJE" na "✅ UKOŃCZONE" w `AUDYT/implementation_plan.md`
+2. **Pobierz gotowe fragmenty kodu** z pliku:
+   - `AUDYT/patches/[nazwa_pliku]_patch_code.md`
+3. **Wprowadź zmiany w pliku `[PLIK]`**, korzystając z przygotowanych fragmentów kodu.
+4. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji.** Odwołaj się do zasad w `__doc/refactoring_rules.md`.
+5. **Zaktualizuj status w planie implementacji**, zmieniając "⏳ OCZEKUJE" na "✅ UKOŃCZONE".
 
 **Status implementacji:** ⏳ OCZEKUJE
 
@@ -213,13 +212,13 @@
 
 **Instrukcje dla implementacji:**
 
-1. **Zapoznaj się z analizami w plikach:**
+1. **Zapoznaj się z analizą i planem** w pliku:
    - `AUDYT/corrections/[nazwa_pliku]_correction.md`
-2. **Wprowadź zmiany w plikach:**
-   - **`[PLIK]`:** [OPIS_ZMIAN_Z_PATCH_CODE.MD]
-3. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji. Odwołaj się do zasad w `__doc/refactoring_rules.md`.**
-4. **Zaktualizuj status w planie implementacji:**
-   - Zmień status z "⏳ OCZEKUJE" na "✅ UKOŃCZONE" w `AUDYT/implementation_plan.md`
+2. **Pobierz gotowe fragmenty kodu** z pliku:
+   - `AUDYT/patches/[nazwa_pliku]_patch_code.md`
+3. **Wprowadź zmiany w pliku `[PLIK]`**, korzystając z przygotowanych fragmentów kodu.
+4. **Po każdej logicznej zmianie, upewnij się, że kod działa poprawnie i nie wprowadza regresji.** Odwołaj się do zasad w `__doc/refactoring_rules.md`.
+5. **Zaktualizuj status w planie implementacji**, zmieniając "⏳ OCZEKUJE" na "✅ UKOŃCZONE".
 
 **Status implementacji:** ⏳ OCZEKUJE
 
