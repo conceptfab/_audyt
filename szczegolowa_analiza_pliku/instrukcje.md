@@ -60,13 +60,14 @@ Analizujemy **JEDEN WYBRANY PLIK** logiki biznesowej i przygotowujemy konkretne 
 
 ## 📄 SZABLONY DO UŻYCIA
 
-### 0. `cel_zadania.md` - Cel konkretnego zadania
+### 0. `cel_zadania.md` - Cel całego audytu
 
-Użyj tego pliku do:
+Ten plik zawiera:
 
-- Wpisania celu tego konkretnego zadania analizy
-- Określenia co chcesz osiągnąć
-- Ustalenia kryteriów sukcesu
+- Cel całego audytu aplikacji
+- Obszary do przeanalizowania
+- Kryteria sukcesu refaktoryzacji
+- Plan działania na poziomie projektu
 
 ### 1. `szablon_analizy.md` - Analiza problemów
 
@@ -100,10 +101,10 @@ Użyj tego szablonu do:
 
 ## 🚀 JAK ZACZĄĆ
 
-1. Wypełnij `cel_zadania.md` - określ cel
+1. Przeczytaj `cel_zadania.md` - poznaj cel audytu
 2. Wybierz plik do analizy
-3. Skopiuj `szablon_analizy.md` i wypełnij
-4. Skopiuj `szablon_poprawek.md` i wypełnij
+3. Skopiuj `szablon_analizy.md` jako `analiza_[NAZWA_PLIKU].md` i wypełnij
+4. Skopiuj `szablon_poprawek.md` jako `poprawki_[NAZWA_PLIKU].md` i wypełnij
 5. Zaimplementuj poprawki krok po kroku
 
 **To wszystko. Proste i praktyczne.**
