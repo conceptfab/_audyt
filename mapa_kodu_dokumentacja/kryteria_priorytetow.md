@@ -20,6 +20,27 @@ Szczegółowe kryteria oceny priorytetów dla mapy logiki biznesowej aplikacji C
 
 ---
 
+## 📁 LOKALIZACJA PLIKU WYNIKOWEGO
+
+**🚨 OBOWIĄZKOWE: Plik wynikowy mapy MUSI być w głównym folderze projektu!**
+
+```
+_audyt/
+├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
+├── __doc/
+├── mapa_kodu_dokumentacja/
+└── szczegolowa_analiza_pliku/
+```
+
+**Wymagania:**
+
+- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
+- Plik MUSI być w głównym folderze: `_audyt/`
+- Plik MUSI być aktualizowany po każdej analizie pliku
+- Plik MUSI zawierać pełny postęp analizy
+
+---
+
 ## 🎯 DWUFAZOWY PROCES OKREŚLANIA PRIORYTETÓW
 
 ### 📋 FAZA 1: PRIORYTET PLIKU W STRUKTURZE PROJEKTU

@@ -20,6 +20,69 @@ Szablony i formaty mapy logiki biznesowej aplikacji CFAB_3DHUB.
 
 ---
 
+## 🚨 KRYTYCZNA ZASADA: PROGRESYWNE BUDOWANIE MAPY
+
+**🔥 ABSOLUTNIE OBOWIĄZKOWE: Mapa MUSI być budowana progresywnie, jeden plik na raz!**
+
+### LOKALIZACJA PLIKU WYNIKOWEGO
+
+**📁 PLIK WYNIKOWY MAPY MUSI BYĆ W GŁÓWNYM FOLDERZE PROJEKTU:**
+
+```
+_audyt/
+├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
+├── __doc/
+├── mapa_kodu_dokumentacja/
+└── szczegolowa_analiza_pliku/
+```
+
+**🚨 OBOWIĄZKOWE:**
+
+- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
+- Plik MUSI być w głównym folderze: `_audyt/`
+- Plik MUSI być aktualizowany po każdej analizie pliku
+- Plik MUSI zawierać pełny postęp analizy
+
+### SZABLON PROGRESYWNEGO BUDOWANIA
+
+**Na początku każdej sesji analizy:**
+
+```markdown
+## 📋 POSTĘP ANALIZY MAPY
+
+**Status:** Progresywne budowanie - plik po pliku
+**Ukończone analizy:** [LICZBA] / [CAŁKOWITA_LICZBA]
+**Procent ukończenia:** [PROCENT]%
+**Następny plik do analizy:** [NAZWA_PLIKU]
+**Priorytet następnego pliku:** [PRIORYTET]
+
+### 📄 ANALIZA PLIKU: [NAZWA_PLIKU].PY
+```
+
+**Po każdej ukończonej analizie:**
+
+```markdown
+### 📄 [NAZWA_PLIKU].PY - ✅ UKOŃCZONA ANALIZA
+
+- **Status:** ✅ UKOŃCZONA ANALIZA
+- **Data ukończenia:** [DATA]
+- **Priorytet struktury:** [PRIORYTET_STRUKTURY] - [UZASADNIENIE]
+- **Priorytet poprawek:** [PRIORYTET_POPRAWEK] - [UZASADNIENIE]
+- **Finalny priorytet:** [FINALNY_PRIORYTET] - [UZASADNIENIE PROCESU MYŚLOWEGO]
+- **Business impact:** [OPIS WPŁYWU NA PROCESY BIZNESOWEJ]
+- **Następny plik do analizy:** [NAZWA_NASTĘPNEGO_PLIKU]
+```
+
+### ZASADY PROGRESYWNEGO BUDOWANIA
+
+1. **JEDEN PLIK NA RAZ** - Analizuj tylko jeden plik w każdej sesji
+2. **KOMPLETNA ANALIZA** - Każdy plik musi być w pełni przeanalizowany
+3. **AKTUALIZACJA POSTĘPU** - Śledź postęp po każdej analizie
+4. **WERYFIKACJA** - Sprawdź kompletność przed przejściem dalej
+5. **NIE POMIJAJ** - Każdy plik .py musi być przeanalizowany
+
+---
+
 ## 🗺️ SZABLON MAPY LOGIKI BIZNESOWEJ
 
 ### 📋 STRUKTURA MAPY

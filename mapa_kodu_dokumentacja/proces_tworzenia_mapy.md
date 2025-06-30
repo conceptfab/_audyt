@@ -20,6 +20,118 @@ Dokumentacja procesu tworzenia mapy logiki biznesowej aplikacji CFAB_3DHUB.
 
 ---
 
+## 🚨 KRYTYCZNA ZASADA: PROGRESYWNE BUDOWANIE MAPY PLIK PO PLIKU
+
+**🔥 ABSOLUTNIE OBOWIĄZKOWE: Mapa MUSI być budowana progresywnie, jeden plik na raz!**
+
+### LOKALIZACJA PLIKU WYNIKOWEGO
+
+**📁 PLIK WYNIKOWY MAPY MUSI BYĆ W GŁÓWNYM FOLDERZE PROJEKTU:**
+
+```
+_audyt/
+├── mapa_kodu_CFAB_3DHUB.md          # ← PLIK WYNIKOWY MAPY
+├── __doc/
+├── mapa_kodu_dokumentacja/
+└── szczegolowa_analiza_pliku/
+```
+
+**🚨 OBOWIĄZKOWE:**
+
+- Plik mapy MUSI być nazwany: `mapa_kodu_CFAB_3DHUB.md`
+- Plik MUSI być w głównym folderze: `_audyt/`
+- Plik MUSI być aktualizowany po każdej analizie pliku
+- Plik MUSI zawierać pełny postęp analizy
+
+### ZASADA PROGRESYWNEGO BUDOWANIA
+
+1. **JEDEN PLIK NA RAZ** - Model MUSI analizować i dodawać do mapy tylko jeden plik w każdej sesji
+2. **KOMPLETNA ANALIZA PLIKU** - Każdy plik musi być w pełni przeanalizowany przed przejściem do następnego
+3. **AKTUALIZACJA MAPY** - Po każdej analizie pliku mapa musi być zaktualizowana
+4. **ŚLEDZENIE POSTĘPU** - Model MUSI śledzić postęp analizy i informować o następnym pliku do analizy
+5. **NIE WOLNO POMIJAĆ** - Każdy plik .py musi być przeanalizowany, bez wyjątków
+
+### PROCES PROGRESYWNEGO BUDOWANIA
+
+**KROK 1: IDENTYFIKACJA NASTĘPNEGO PLIKU**
+
+- Model MUSI sprawdzić aktualny postęp analizy
+- Wybrać następny plik do analizy (według priorytetów)
+- Zgłosić który plik będzie analizowany
+
+**KROK 2: KOMPLETNA ANALIZA PLIKU**
+
+- Przeanalizować zawartość pliku (funkcje, klasy, importy)
+- Określić dwufazowe priorytety (struktura + poprawki)
+- Uzasadnić finalny priorytet
+- Opisać business impact
+- Zmapować zależności
+
+**KROK 3: AKTUALIZACJA MAPY**
+
+- Dodać analizę pliku do mapy
+- Zaktualizować statystyki
+- Zaktualizować postęp analizy
+- Wskazać następny plik do analizy
+
+**KROK 4: WERYFIKACJA**
+
+- Sprawdzić czy analiza jest kompletna
+- Sprawdzić czy mapa jest aktualna
+- Przygotować się do następnej sesji
+
+### FORMAT PROGRESYWNEGO BUDOWANIA
+
+**Na początku każdej sesji model MUSI:**
+
+```markdown
+## 📋 POSTĘP ANALIZY MAPY
+
+**Status:** Progresywne budowanie - plik po pliku
+**Ukończone analizy:** [LICZBA] / [CAŁKOWITA_LICZBA]
+**Procent ukończenia:** [PROCENT]%
+**Następny plik do analizy:** [NAZWA_PLIKU]
+**Priorytet następnego pliku:** [PRIORYTET]
+
+### 📄 ANALIZA PLIKU: [NAZWA_PLIKU].PY
+```
+
+**Po każdej analizie model MUSI:**
+
+```markdown
+### 📄 [NAZWA_PLIKU].PY - ✅ UKOŃCZONA ANALIZA
+
+- **Status:** ✅ UKOŃCZONA ANALIZA
+- **Data ukończenia:** [DATA]
+- **Priorytet struktury:** [PRIORYTET_STRUKTURY] - [UZASADNIENIE]
+- **Priorytet poprawek:** [PRIORYTET_POPRAWEK] - [UZASADNIENIE]
+- **Finalny priorytet:** [FINALNY_PRIORYTET] - [UZASADNIENIE PROCESU MYŚLOWEGO]
+- **Business impact:** [OPIS WPŁYWU NA PROCESY BIZNESOWE]
+- **Następny plik do analizy:** [NAZWA_NASTĘPNEGO_PLIKU]
+```
+
+### ZABRONIONE ZACHOWANIA
+
+**🚨 ABSOLUTNIE ZABRONIONE:**
+
+1. **NIE analizuj wielu plików jednocześnie** - tylko jeden na raz!
+2. **NIE pomijaj analizy pliku** - każdy plik musi być przeanalizowany
+3. **NIE generuj całej mapy od razu** - buduj progresywnie
+4. **NIE pomijaj aktualizacji postępu** - śledź każdy krok
+5. **NIE pomijaj uzasadnień** - każdy priorytet musi być uzasadniony
+
+### WERYFIKACJA PROGRESYWNEGO BUDOWANIA
+
+**Po każdej analizie pliku model MUSI sprawdzić:**
+
+- ✅ Czy plik został w pełni przeanalizowany?
+- ✅ Czy priorytety są uzasadnione?
+- ✅ Czy mapa została zaktualizowana?
+- ✅ Czy postęp został zaktualizowany?
+- ✅ Czy wskazano następny plik do analizy?
+
+---
+
 ## 🗺️ ETAP 1: DYNAMICZNE ODKRYWANIE STRUKTURY
 
 **🚨 KRYTYCZNE: Mapa NIE jest statyczna! Musi być generowana na podstawie aktualnego kodu za każdym razem.**
